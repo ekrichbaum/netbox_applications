@@ -47,3 +47,11 @@ The plugin is available on PyPI and can be installed via pip:
 ```bash
 pip install adestis-netbox-applications
 ```
+
+## Permissions
+
+For non-superusers, assign NetBox object permissions to the user or their group
+for the relevant plugin object types: Application, Application Types, Software,
+and Software Version. The **View** action makes the corresponding navigation
+entry visible; **Add** enables its Add button. Editing and deletion require
+**Change** and **Delete**, respectively.
